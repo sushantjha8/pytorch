@@ -1,0 +1,5 @@
+pipeline:
+  train:
+    image_root: 'D:\pytorch\object_detection\data'
+    input_annoation: 'D:\pytorch\object_detection\data\results.json'
+    depths: 101

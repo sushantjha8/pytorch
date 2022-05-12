@@ -48,7 +48,7 @@ def cocopipeline_train(pipeline):
                 print(f'Iteration : {i}/{len_dataloader}, loss: {losses}')
 
         path=os.path.abspath("")
-        torch.save(model.state_dict(),'model.pth')
+        torch.save(model,'model.pth')
 
 
 def evaluator(pipeline):
